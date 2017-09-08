@@ -11,9 +11,9 @@ func main() {
 	 if err != nil {
 	 	panic(err.Error())
 	 }
-
 	 defer cam.Close()
-	 err = cam.StartStreaming()
+	 
+	err = cam.StartStreaming()
 	 if err != nil {
 	 	panic(err.Error())
 	 }
