@@ -11,6 +11,7 @@ import (
 )
 
 func main() {
+
 	point1 := s2.Point{r3.Vector{10,10,10,}}
 	point2 := s2.Point{r3.Vector{10, 20,0}}
 	point3 := s2.Point{r3.Vector{20, 20,0}}
