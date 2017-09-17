@@ -21,8 +21,8 @@ func main() {
 	}
 
 	fmt.Printf("Vectors from points V1: %+v V2: %+v\n", vector1, vector2)
-	lenght1 := v.VectorLenght(vector1)
-	lenght2 := v.VectorLenght(vector2)
+	lenght1 := v.GetLenght(vector1)
+	lenght2 := v.GetLenght(vector2)
 
 	fmt.Printf("Lenght: %+v %+v\n", lenght1, lenght2)
 	ang1,ang2 := v.GetAngel(vector1, vector2)
