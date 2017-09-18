@@ -11,7 +11,7 @@ func main() {
 	vector1, err1 := v.GetVector(start1, stop1)
 
 	start2 := v.Point{10, 10}
-	stop2 := v.Point{30, 30}
+	stop2 := v.Point{40, 30}
 	vector2, err2 := v.GetVector(start2, stop2)
 
 	if err1 != nil || err2 != nil {
@@ -19,6 +19,5 @@ func main() {
 	}
 
 	ang1,ang2 := v.GetAngel(vector1, vector2)
-	fmt.Printf("RAD: %+v, DEG: %+v\n", ang1, ang2)
-
+	fmt.Printf("RAD: %+v, DEG: %+v\n", ang1, v.Round(ang2, 0.05))
 }
