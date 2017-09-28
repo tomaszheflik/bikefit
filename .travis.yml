@@ -5,9 +5,9 @@ go:
   - 1.9
   - master
 
-  before_install:
+before_install:
     - go get -v github.com/tomaszheflik/vectors
 
-  script:
+script:
     - go test
     - go build -o bikefit
