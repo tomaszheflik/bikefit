@@ -1,4 +1,4 @@
-package bikefit
+package main
 
 import (
 	v "github.com/tomaszheflik/vectors"
