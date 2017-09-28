@@ -1,4 +1,4 @@
-package main
+package bikefit
 
 type minRGB struct {
 	r uint32
